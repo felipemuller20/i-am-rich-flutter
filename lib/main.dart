@@ -12,8 +12,9 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.powertrafic.fr/wp-content/uploads/2023/04/image-ia-exemple.png'),
+            image: AssetImage('images/diamond.png'),
+            // image: NetworkImage(
+            //     'https://www.powertrafic.fr/wp-content/uploads/2023/04/image-ia-exemple.png'),
           ),
         ),
       ),
